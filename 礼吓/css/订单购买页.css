@@ -1,0 +1,227 @@
+/* 1.给弹框设置属性fixed可以遮住整个body
+2.给主体设置绝对定位会导致body遮不住
+采用padding解决
+ */
+.nav{
+	width: 100%;
+}
+.arrow{
+	position: absolute;
+	top: .66rem;
+	left: .20rem;
+	width: .20rem;
+}
+.main{
+	/* padding-top: 1.28rem; */
+}
+.lihe-baozhuang{
+	padding-top: .38rem;
+	padding-left: .50rem;
+	padding-right: .30rem;
+}
+.lihe-baozhuang img{
+	width: 100%;
+}
+.liwukuai{
+	padding-top: .43rem;
+	padding-left: .50rem;
+	padding-right: .30rem;
+}
+.liwukuai li{
+	display: inline-block;
+	float: left;
+	width: 2.98rem;
+	height: 2.31rem;
+	border: 0.01rem solid #e0e0e0;
+	border-radius: .15rem;
+	position: relative;
+	padding-top: .31rem;
+	box-shadow: 0 .03rem .3rem rgba(0,0,0,0.1);
+	margin-right: .25rem;
+	margin-bottom: .3rem;
+}
+.pinzhi{
+	font-size: .28rem;
+	width: 1.03rem;
+	color: #bcbcbc;
+}
+.price{
+	font-size: .36rem;
+	width: .52rem;
+	color: #656565;
+}
+.yuan{
+	font-size: .21rem;
+	width: .23rem;
+	color: #656565;
+}
+.jiazhi{
+	font-size: .19rem;
+	width: 2.31rem;
+	line-height: .19rem;
+	color: #c3c3c3;
+	margin-top: .05rem;
+	
+}
+.hg{
+	position: absolute;
+	width: .58rem;
+	top: .31rem;
+	right: .29rem;
+}
+.li-top{
+	border-bottom: .01rem solid #e1e1e1;
+	padding-left: .29rem;
+	padding-bottom: .2rem;
+}
+.li-bottom{
+	height: .87rem;
+	position: relative;
+}
+.jia,.jian{
+	width: .32rem;
+	position: absolute;
+	bottom: .27rem;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	display: inline-block;
+	line-height: .87rem;
+}
+.jia1,.jian{
+	width: .32rem;
+	position: absolute;
+	bottom: .27rem;
+	right: .48rem;
+	display: inline-block;
+	line-height: .87rem;
+}
+.margin-left{
+	margin-left: .2rem;
+}
+.jian{
+	position: absolute;
+	left: -1rem;
+	bottom: .4rem;
+}
+.jiujiu{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: .27rem;
+	width: .34rem;
+}
+.area{
+	width: 5.02rem;
+	margin: .3rem auto;
+	height: .22rem;
+	line-height: .22rem;
+}
+.area p{
+	color: #878787;
+	font-size: .22rem;
+	font-weight: bold;
+}
+
+.buy-wrap{
+	width: 100%;
+	height: .67rem;
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+	border-top: 0.01rem solid #e1e1e1;
+}
+.buy-it{
+	width: 80%;
+	margin: 0 auto;
+}
+.buy-it p:nth-child(1){
+	width: 100%;
+	height: .22rem;
+	line-height: .22rem;
+	color: #878787;
+	padding-left: .07rem;
+}
+.buy-it p:nth-child(2){
+	height: .5rem;
+	font-size: .42rem;
+	font-weight: bold;
+	line-height: .5rem;
+	color: #333333;
+}
+.buy-it button{
+	margin-right: .2rem;
+	margin-bottom: .3rem;
+	background: #69be49;
+	color: #FFFFFF;
+	font-size: .3rem;
+	width: 1.5rem;
+	height: .66rem;
+	line-height: .66rem;
+	border: none;
+	border-radius: .1rem;
+	text-align: center;
+	outline: none;
+}
+
+.tankuang {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: none;
+}
+
+.wrap {
+	position: fixed;
+	background: white;
+	width: 5.6rem;
+	height: 7rem;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.xy-gift {
+	font-size: 0.48rem;
+	height: .48rem;
+	width: 2rem;
+	line-height: .48rem;
+	margin-top: .58rem;
+	margin-bottom: .32rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box1 {
+	width: 4.9rem;
+	height: 3.3rem;
+	background: #ebebeb;
+	margin: 0 auto;
+	margin-top: .30rem;
+	margin-bottom: .37rem;
+}
+.pz-lp{
+	font-size: .28rem;
+	width: 5.1rem;
+	height: .48rem;
+	line-height: .48rem;
+	margin: 0 auto;
+	color: #c9c9c9;
+	margin-bottom: .35rem;
+}
+#btn2{
+	width: 100%;
+	height: 1rem;
+	font-size: .28rem;
+	color: #00c200;
+	padding-top: .33rem;
+	text-align: center;
+	border-top: .01rem solid #d2d3d5;
+}

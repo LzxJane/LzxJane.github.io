@@ -1,0 +1,100 @@
+/* 
+1.若调用reset.css,移动端需要将html的min-width取消掉
+2.img是内联元素
+ */
+body{
+	position: relative;
+}
+.nav img{
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+.lixia{
+	width: 100%;
+	height: .95rem;
+	line-height: .95rem;
+	/* background: pink; */
+	padding-top: .32rem;
+}
+.lixia h1{
+	font-size: .36rem;
+	width: .72rem;
+	color: #000000;
+	margin: 0 auto;                   	
+}
+.rule{
+	width: 100%;
+}
+.rule img{
+	width: 100%;
+}
+.nvwang{
+	width: 90%;
+	margin-top: .59rem;
+	margin-bottom: .49rem;
+	margin-left: auto;
+	margin-right: auto;
+	/* background: red; */
+}
+.nvwang .wrap{
+	position: relative;
+	width: 100%;
+}
+.nvwang .one{
+	width: 100%;
+}
+.nvwang .two{
+	position: absolute;
+	top: -.20rem;
+	right: -.18rem;
+	width: .52rem;
+}
+.huawen-guodu{
+	width: 62%;
+	margin: 0 auto;
+	margin-bottom: .50rem;
+}
+.huawen-guodu img{
+	width: 100%;
+}
+.list img{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: .41rem;
+}
+.bottom{
+	padding-top: .21rem;
+	padding-bottom: .77rem;
+}
+.bottom ul li{
+	float: left;
+	width: 50%;
+}
+.bottom .li1{
+	/* width: 1.18rem; */
+	color: #444444;
+	display: inline-block;
+	border-right: 1px solid #444444;
+	padding-left: 1.67rem;
+	padding-right: .88rem;
+	font-size: .28rem;
+	line-height: .28rem;
+	text-decoration: none;
+}
+.bottom .li2{
+	/* width: 1.18rem; */
+	display: inline-block;
+	color: #444444;
+	font-size: .28rem;
+	padding-left: .89rem;
+	padding-right: 1.67rem;
+	line-height: .28rem;
+	text-decoration: none;
+}
+.list a{
+	display: inline-block;
+	/* width: 6.6rem; */
+	/* height: 2.2rem; */
+}

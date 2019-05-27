@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/领取人打开页面2.css"/>
+	</head>
+	<body>
+		<div class="nav">
+			<img src="img/nav1.png" >
+			<div class="lixia">
+				<h1>我的礼品</h1>
+			</div>
+		</div>
+		<a href="领取人打开页面1.html">
+			<img src="img/箭头.png" class="arrow">
+		</a>
+		
+		<img src="img/glasess-1478812_640.png" class="glass">
+		<p class="gain">获得小米电动牙刷*1</p>
+		
+		<div class="nav-wrap">
+			<div class="nav1 clearfix">
+				<p class="nav-left fl">
+					收货信息
+				</p>
+				<p class="nav-right fr">
+					<span style="font-size: .22rem;color: #bfbfbf;">绝不向任何人透露，赠礼好友也不知道</span>
+				</p>
+			</div>
+		</div>
+		
+		<div class="list">
+			<ul>
+				<li>
+					<div class="list-wrap clearfix">
+						<p class="left fl">联系人</p>
+						<p class="right fr">拉布、</p>
+					</div>
+				</li>
+				<li>
+					<div class="list-wrap clearfix">
+						<p class="left fl">手机号</p>
+						<p class="right fr">15938833799</p>
+					</div>
+				</li>
+				<li style="position: relative;">
+					<div class="list-wrap clearfix">
+						<p class="left fl">选择地区</p>
+						<p class="right fr" style="color: #878787;">北京市 北京 通州区</p>
+						<img src="img/Path.png" class="pt">
+					</div>
+				</li>
+				<li>
+					<div class="list-wrap clearfix">
+						<p class="left fl">详细地址</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+		<p class="submit">*填写收货信息后1个工作日内发出</p>
+		<div class="zengsong">
+			<a href="#">
+				<button type="button" id="btn1">确认</button>
+			</a>
+		</div>
+		
+		<div class="tk-wrap">
+			<div class="tankuang">
+				<p class="tk-1"><b>核对信息</b></p>
+				<div class="list">
+					<ul>
+						<li style="border: none;">
+							<div class="list-wrap clearfix">
+								<p class="left fl">联系人</p>
+								<p class="right fr">香克斯</p>
+							</div>
+						</li>
+						<li style="border: none;">
+							<div class="list-wrap clearfix">
+								<p class="left fl">手机号</p>
+								<p class="right fr">15938833799</p>
+							</div>
+						</li>
+						<li style="border: none;">
+							<div class="list-wrap clearfix new">
+								<p class="left fl">收货地址</p>
+								<p class="right fr">天津市 天津 河西区</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<p class="address">新建村二期低层 12号楼 一单元</p>
+				<p class="address">1101</p>
+				<p id="btn2" class="clearfix">
+					<span style="color: #878787;"class="span1 fl">取消</span>
+					<a href="我送出可领取.html">
+						<span class="span2 fr">确认</span>
+					</a>
+				</p>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			var btn1 = document.getElementById('btn1');
+			var mask = document.getElementsByClassName('tk-wrap')[0];
+			var btn2 = document.getElementById('btn2');
+			btn1.onclick = function() {
+				mask.style.display = 'block';
+			}
+			btn2.onclick = function() {
+				mask.style.display = 'none';
+			}
+		
+		</script>
+	</body>
+</html>

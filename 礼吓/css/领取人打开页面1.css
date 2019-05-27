@@ -1,0 +1,143 @@
+.nav img{
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+.lixia{
+	width: 100%;
+	height: .95rem;
+	line-height: .95rem;
+	/* background: pink; */
+	padding-top: .32rem;
+}
+.lixia h1{
+	font-size: .36rem;
+	width: .8rem;
+	color: #000000;
+	margin: 0 auto;                   	
+}
+.arrow{
+	position: absolute;
+	top: .66rem;
+	left: .20rem;
+	width: .20rem;
+}
+.nianhui{
+	height: 3.6rem;
+	width: 90%;
+	margin: 0 .3rem;
+	margin-top: .54rem;
+	position: relative;
+}
+.nianhui .zhunbei{
+	width: 1.96rem;
+	z-index: 5;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: .5rem;
+}
+.nianhui .gift{
+	width: 2.49rem;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+.nianhui p{
+	height: .30rem;
+	line-height: .30rem;
+	font-size: .30rem;
+	width: 1.8rem;
+	margin: 0 auto;
+	margin-top: .29rem;
+}
+.info-wrap{
+	width: 6.1rem;
+	height: 1.6rem;
+	margin: .38rem .39rem;
+	
+}
+.info{
+	width: 90%;
+	border: 0.01rem solid #e0e0e0;
+	border-radius: .15rem;
+	margin: 0 auto;
+}
+.info-wrap span{
+	font-size: .28rem;
+	color: #656565;
+}
+.info p:nth-child(2) {
+	margin-top: .15rem;
+	margin-bottom: .15rem;
+}
+
+.zy{
+	font-size: .24rem;
+	color: #6c7ea2;
+	margin-top: .26rem;
+	margin-bottom: .15rem;
+	margin-left: 5%;
+}
+.info1{
+	width: 90%;
+	margin: 0 auto;
+	border: 0.01rem solid #e0e0e0;
+	border-radius: .15rem;
+	background: #f8f8f8;
+	height: 2.4rem;
+	position: relative;
+	margin-bottom: .75rem;
+}
+.eat{
+	font-size: .30rem;
+	position: absolute;
+	top: .34rem;
+	left: .26rem;
+	color: #656565;
+}
+.zishu{
+	font-size: .24rem;
+	color: #e5e5e5;
+	position: absolute;
+	bottom: .2rem;
+	right: .46rem;
+}
+.zengsong{
+	width: 90%;
+	position: absolute;
+	bottom: .7rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.zengsong button{
+	width: 100%;
+	border: 0.01rem solid #9ad499;
+	border-radius: .15rem;
+	height: .86rem;
+	background: #09bb07;
+	color: #FFFFFF;
+	font-size: .36rem;
+	outline: none;
+}
+
+.wish{
+	text-align: center;
+	margin-bottom: .3rem;
+	font-size: .42rem;
+}
+.gf-box{
+	width: .38rem;
+	display: inline-block;
+	margin-right: .25rem;
+}
+.lucky{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: .25rem;
+	margin-bottom: .6rem;
+	font-size: .22rem;
+	color: #878787;
+}
